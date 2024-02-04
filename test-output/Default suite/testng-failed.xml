@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="reqres.api.GET_Request">
+      <class name="HTTPRequests.DELETE_Request">
         <methods>
-          <include name="digestAuthentication"/>
+          <include name="delete_a_single_user"/>
         </methods>
-      </class> <!-- reqres.api.GET_Request -->
+      </class> <!-- HTTPRequests.DELETE_Request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
